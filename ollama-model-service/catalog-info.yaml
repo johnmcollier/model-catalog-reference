@@ -76,7 +76,7 @@ metadata:
     - granite
     - conversational
     - task-text-generation
-    - 20B
+    - 20b
 spec:
   type: ai-model
   owner: user:johnmcollier
@@ -120,7 +120,7 @@ metadata:
     - conversational
     - task-multilingual
     - task-text-generation
-    - 1B
+    - 1b
 spec:
   type: ai-model
   owner: user:johnmcollier
