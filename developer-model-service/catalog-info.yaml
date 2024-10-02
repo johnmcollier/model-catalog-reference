@@ -99,7 +99,7 @@ metadata:
     - openai
     - vllm
   links:
-    - url: https://model-service.apps.domain.com/docs
+    - url: https://model-service.apps.rosa.redhat-ai-dev.m6no.p3.openshiftapps.com/docs
       title: Model Service API Documentation
       type: website
       icon: WebAsset
