@@ -8,9 +8,11 @@ The model server API can be accessed at: https://ollama-route-ollama.apps.rosa.r
 
 ## Authentication
 
-The model server does not require authentication to access, and can be accessed over a Kubernetes service or an external URL.
+In order to gain access to the model server you will need to sign in with your SSO credentials by selecting Google auth. Once you have signed in you are able to generate a token by navigating to **`Apps and API Keys`** on the top ribbon and hitting **`Create new Application`**:
 
-**Note:** If you are unable to access the model server via SSO you need to reach out to a platform administrator.
+![Generation Example](../images/generation-example.png)
+
+Select `ollama` as the service. Once a token has been generated, you will be provided with the API server URL.
 
 ## API Schema
 <!--
