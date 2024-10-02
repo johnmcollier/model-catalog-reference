@@ -4,7 +4,7 @@
 
 ### Model Server URL
 
-The model server API can be accessed at: http://ollama-route-ollama.apps.domain.com/v1
+The model server API can be accessed at: http://ollama-route-ollama.apps.rosa.redhat-ai-dev.m6no.p3.openshiftapps.com/v1
 
 ## Authentication
 
@@ -30,7 +30,7 @@ The API Schema is available [here](../../../../../api/ollama-service-api/definit
 
 ```
 curl -X 'POST' \
-    'http://ollama-route-ollama.apps.domain.com/v1/completions' \
+    'http://ollama-route-ollama.apps.rosa.redhat-ai-dev.m6no.p3.openshiftapps.com/v1/completions' \
     -H 'accept: application/json' \
     -H 'Content-Type: application/json' \
     -d '{
@@ -49,7 +49,7 @@ import urllib3
 import numpy as np
 import json
 
-API_URL = "http://ollama-route-ollama.apps.domain.com"
+API_URL = "http://ollama-route-ollama.apps.rosa.redhat-ai-dev.m6no.p3.openshiftapps.com"
 API_KEY = "sk-no-key-required"
 
 input = ["San Francisco is a"]
@@ -75,7 +75,7 @@ print(completion)
 ```python
 from langchain_community.llms import VLLMOpenAI
 
-API_URL = "http://ollama-route-ollama.apps.domain.com/v1"
+API_URL = "http://ollama-route-ollama.apps.rosa.redhat-ai-dev.m6no.p3.openshiftapps.com/v1"
 API_KEY = sk-no-key-required
 
 llm = VLLMOpenAI(
@@ -95,7 +95,7 @@ print(llm.invoke("Rome is"))
 
 ```bash
 curl -X 'POST' \
-    'http://ollama-route-ollama.apps.domain.com/v1/completions' \
+    'http://ollama-route-ollama.apps.rosa.redhat-ai-dev.m6no.p3.openshiftapps.com/v1/completions' \
     -H 'accept: application/json' \
     -H 'Content-Type: application/json' \
     -d '{

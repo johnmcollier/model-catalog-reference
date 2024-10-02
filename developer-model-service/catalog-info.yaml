@@ -11,11 +11,11 @@ metadata:
     backstage.io/techdocs-ref: dir:./
   description: 'vllm and 3scale-based model service providing models for developer tools.'
   links:
-    - url: https://model-service.apps.domain.com
+    - url: https://model-service.apps.rosa.redhat-ai-dev.m6no.p3.openshiftapps.com
       title: Accessm
       type: website
       icon: WebAssett
-    - url: https://ibm-granite-8b-code-instruct-vllm.apps.domain.com
+    - url: https://ibm-granite-8b-code-instruct-3scale-apicast-production.apps.rosa.redhat-ai-dev.m6no.p3.openshiftapps.com
       title: API URL
       type: website
       icon: WebAsset
@@ -50,11 +50,11 @@ metadata:
     backstage.io/techdocs-ref: dir:ibm-granite-8b-code-instruct
   description: 'IBM Granite is a decoder-only code model for code generative tasks (e.g. fixing bugs, explaining code, documenting code. Trained with code written in 116 programming languages.'
   links:
-    - url: https://model-service.apps.domain.com
+    - url: https://model-service.apps.rosa.redhat-ai-dev.m6no.p3.openshiftapps.com
       title: Access
       type: website
       icon: WebAssett
-    - url: https://ibm-granite-8b-code-instruct-vllm.apps.domain.com
+    - url: https://ibm-granite-8b-code-instruct-3scale-apicast-production.apps.rosa.redhat-ai-dev.m6no.p3.openshiftapps.com:443 
       title: API URL
       type: website
       icon: WebAsset
@@ -110,4 +110,4 @@ spec:
   dependencyOf: 
     - component:ibm-granite-8b-code-instruct
   definition:
-    $text: https://github.com/redhat-ai-dev/model-catalog/blob/main/developer-model-service/openapi.json
+    $text: https://github.com/johnmcollier/model-catalog-reference/blob/DEVAI-150/developer-model-service/openapi.json
