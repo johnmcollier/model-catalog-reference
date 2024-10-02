@@ -12,7 +12,7 @@ metadata:
   description: 'vllm and 3scale-based model service providing models for developer tools.'
   links:
     - url: https://model-service.apps.rosa.redhat-ai-dev.m6no.p3.openshiftapps.com
-      title: Accessm
+      title: Access
       type: website
       icon: WebAssett
     - url: https://ibm-granite-8b-code-instruct-3scale-apicast-production.apps.rosa.redhat-ai-dev.m6no.p3.openshiftapps.com
@@ -25,6 +25,8 @@ metadata:
     - vllm
     - llm
     - developer-model-service
+    - authenticated
+    - gateway
 spec:
   type: model-server
   owner: user:johnmcollier
@@ -33,7 +35,6 @@ spec:
     - model-service-api
   dependsOn:
     - resource:ibm-granite-8b-code-instruct
-    - resource:meta-llama-31-8b-instruct
     - api:model-service-api
   profile:
     displayName: "Developer Model Service"
