@@ -29,15 +29,13 @@ spec:
   owner: user:johnmcollier
   lifecycle: production
   providesApis:
-    - model-service-api
+    - ollama-service-api
   dependsOn:
     - resource:ibm-granite-8b-code-instruct
     - resource:meta-llama-32-1b
-    - resource:meta-llama-31-8b
     - resource:gemma2-2b
-    - resource:mistral-7b-instruct
     - resource:phi-mini-instruct
-    - api:model-service-api
+    - api:ollama-service-api
   profile:
     displayName: "Ollama Model Service"
 ---
@@ -82,7 +80,7 @@ spec:
   owner: user:johnmcollier
   lifecycle: production
   providesApis:
-    - model-service-api
+    - ollama-service-api
   dependencyOf: 
     - component:ollama-model-service
   profile:
@@ -126,7 +124,7 @@ spec:
   owner: user:johnmcollier
   lifecycle: production
   providesApis:
-    - model-service-api
+    - ollama-service-api
   dependencyOf: 
     - component:ollama-model-service
   profile:
@@ -169,7 +167,7 @@ spec:
   owner: user:johnmcollier
   lifecycle: production
   providesApis:
-    - model-service-api
+    - ollama-service-api
   dependencyOf: 
     - component:ollama-model-service
   profile:
@@ -210,7 +208,7 @@ spec:
   owner: user:johnmcollier
   lifecycle: production
   providesApis:
-    - model-service-api
+    - ollama-service-api
   dependencyOf: 
     - component:ollama-model-service
   profile:
