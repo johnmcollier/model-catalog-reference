@@ -10,7 +10,7 @@ metadata:
     backstage.io/techdocs-ref: dir:./
   description: 'Ollama-based model service providing a variety of LLMs.'
   links:
-    - url: http://ollama-route-ollama.apps.rosa.redhat-ai-dev.m6no.p3.openshiftapps.com
+    - url: https://ollama-route-ollama.apps.rosa.redhat-ai-dev.m6no.p3.openshiftapps.com
       title: Access
       type: website
       icon: WebAssett
@@ -51,7 +51,7 @@ metadata:
     backstage.io/techdocs-ref: dir:granite-20b-code-instruct
   description: 'IBM Granite is a decoder-only code model for code generative tasks (e.g. fixing bugs, explaining code, documenting code. Trained with code written in 116 programming languages.'
   links:
-    - url: http://ollama-route-ollama.apps.rosa.redhat-ai-dev.m6no.p3.openshiftapps.com
+    - url: https://ollama-route-ollama.apps.rosa.redhat-ai-dev.m6no.p3.openshiftapps.com
       title: API URL
       type: website
       icon: WebAsset
@@ -94,7 +94,7 @@ metadata:
     backstage.io/techdocs-ref: dir:meta-llama-32-1b
   description: 'The Meta Llama 3.2 collection of multilingual large language models (LLMs) is a collection of pretrained and instruction-tuned generative models.'
   links:
-    - url: http://ollama-route-ollama.apps.rosa.redhat-ai-dev.m6no.p3.openshiftapps.com
+    - url: https://ollama-route-ollama.apps.rosa.redhat-ai-dev.m6no.p3.openshiftapps.com
       title: API URL
       type: website
       icon: WebAsset
@@ -138,7 +138,7 @@ metadata:
     backstage.io/techdocs-ref: dir:gemma2-2b
   description: 'Gemma is a family of lightweight, state-of-the-art open models from Google, built from the same research and technology used to create the Gemini models. They are text-to-text, decoder-only large language models, available in English, with open weights for both pre-trained variants and instruction-tuned variants. Gemma models are well-suited for a variety of text generation tasks, including question answering, summarization, and reasoning. Their relatively small size makes it possible to deploy them in environments with limited resources such as a laptop, desktop or your own cloud infrastructure, democratizing access to state of the art AI models and helping foster innovation for everyone.'
   links:
-    - url: http://ollama-route-ollama.apps.rosa.redhat-ai-dev.m6no.p3.openshiftapps.com
+    - url: https://ollama-route-ollama.apps.rosa.redhat-ai-dev.m6no.p3.openshiftapps.com
       title: API URL
       type: website
       icon: WebAsset
@@ -181,7 +181,7 @@ metadata:
     backstage.io/techdocs-ref: dir:phi-mini-instruct
   description: 'Phi-3.5-mini is a lightweight, state-of-the-art open model built upon datasets used for Phi-3 - synthetic data and filtered publicly available websites - with a focus on very high-quality, reasoning dense data. The model belongs to the Phi-3 model family and supports 128K token context length. The model underwent a rigorous enhancement process, incorporating both supervised fine-tuning, proximal policy optimization, and direct preference optimization to ensure precise instruction adherence and robust safety measures.'
   links:
-    - url: http://ollama-route-ollama.apps.rosa.redhat-ai-dev.m6no.p3.openshiftapps.com
+    - url: https://ollama-route-ollama.apps.rosa.redhat-ai-dev.m6no.p3.openshiftapps.com
       title: API URL
       type: website
       icon: WebAsset
