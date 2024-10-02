@@ -5,9 +5,11 @@ The following models are accessible via this model server API.
 ## IBM Granite 20B Code Instruct
 
 [Hugging Face Repository](https://huggingface.co/ibm-granite/granite-20b-code-instruct)
+
 <!--
 TechDocs read this as a URL starting from where the docs are located, so we can use ../ behaviour to navigate the TechDocs to reference other resources/components/apis
 -->
+
 [Model Documentation](../../../../default/resource/ibm-granite-20b-code-instruct)
 
 ## Meta Llama-3.2 1B
