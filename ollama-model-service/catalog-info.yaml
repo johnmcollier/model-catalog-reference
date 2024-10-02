@@ -31,7 +31,7 @@ spec:
   providesApis:
     - ollama-service-api
   dependsOn:
-    - resource:ibm-granite-8b-code-instruct
+    - resource:granite-20b-code-instruct
     - resource:meta-llama-32-1b
     - resource:gemma2-2b
     - resource:phi-mini-instruct
