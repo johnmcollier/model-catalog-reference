@@ -79,7 +79,7 @@ metadata:
     - conversational
     - task-text-generation
 spec:
-  type: llm
+  type: ai-model
   owner: user:jcollier
   lifecycle: production
   providesApis:
