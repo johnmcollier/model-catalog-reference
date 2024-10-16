@@ -1,34 +1,28 @@
-# Access & Usage Information
+# **Access & Usage Information**
 
-## Basic Information
-
-### Model Server URL
+## **Model Server URL**
 
 The model server API can be accessed at: https://ollama-route-ollama.apps.rosa.redhat-ai-dev.m6no.p3.openshiftapps.com/v1
 
-## Authentication
+## **Authentication**
 
-In order to gain access to the model server you will need to sign in with your SSO credentials by selecting Google auth. Once you have signed in you are able to generate a token by navigating to **`Apps and API Keys`** on the top ribbon and hitting **`Create new Application`**:
+The model server does not require authentication to access, and can be accessed over a Kubernetes service or an external URL.
 
-![Generation Example](./images/generation-example.png)
+**Note:** If you are unable to access the model server via SSO you need to reach out to a platform administrator.
 
-Select `ollama` as the service. Once a token has been generated, you will be provided with the API server URL.
-
-## API Schema
+## **API Schema**
 <!--
-The name of the api, model-service-api, is grabbed from the name field in the ai-catalog.yaml metadata for the api.
-
+The name of the api, ollama-service-api, is grabbed from the name field in the catalog-info.yaml metadata for the api.
 We can use absolute paths to navigate the TechDocs to reference other resources/components/apis
 -->
+
 The API Schema is available [here](/catalog/default/api/ollama-service-api/definition).
 
-## Usage Examples
+## **Usage Examples**
 
-### IBM Granite-20B-Code-Instruct
+### **IBM Granite-20B-Code-Instruct**
 
-#### Text Generation
-
-##### Using Curl
+##### **Using Curl**
 
 ```
 curl -X 'POST' \
@@ -43,7 +37,7 @@ curl -X 'POST' \
 }'
 ```
 
-##### Python
+##### **Python**
 
 ```python
 import requests
@@ -70,7 +64,7 @@ completion = requests.post(
 print(completion)
 ```
 
-##### Python With Langchain
+##### **Python With Langchain**
 
 **Note:** Requires `pip install langchain-community`
 
@@ -89,11 +83,9 @@ llm = VLLMOpenAI(
 print(llm.invoke("Rome is"))
 ```
 
-### phi-mini-instruct
+### **Microsoft Phi-3.5 Mini Instruct 3.8B**
 
-#### Text Generation
-
-##### Using Curl
+##### **Using Curl**
 
 ```bash
 curl -X 'POST' \
