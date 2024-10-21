@@ -30,7 +30,7 @@ metadata:
     - ollama-model-service
 spec:
   type: model-server
-  owner: user:jcollier
+  owner: user:exampleuser
   lifecycle: production
   providesApis:
     - ollama-service-api
@@ -81,7 +81,7 @@ metadata:
     - 20b
 spec:
   type: ai-model
-  owner: user:jcollier
+  owner: user:exampleuser
   lifecycle: production
   providesApis:
     - ollama-service-api
@@ -125,7 +125,7 @@ metadata:
     - 1b
 spec:
   type: ai-model
-  owner: user:jcollier
+  owner: user:exampleuser
   lifecycle: production
   providesApis:
     - ollama-service-api
@@ -168,7 +168,7 @@ metadata:
     - 2b
 spec:
   type: ai-model
-  owner: user:jcollier
+  owner: user:exampleuser
   lifecycle: production
   providesApis:
     - ollama-service-api
@@ -209,7 +209,7 @@ metadata:
     - task-text-generation
 spec:
   type: ai-model
-  owner: user:jcollier
+  owner: user:exampleuser
   lifecycle: production
   providesApis:
     - ollama-service-api
@@ -217,6 +217,16 @@ spec:
     - component:ollama-model-service
   profile:
     displayName: "Microsoft Phi-3.5 Mini Instruct"
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: exampleuser
+spec:
+  profile:
+    displayName: Example User
+    email: user@example.com
+  memberOf: []
 ######################################
 # APIs
 # The API object represent the API used by the model server (e.g. OpenAI)
@@ -239,7 +249,7 @@ metadata:
       icon: WebAsset
 spec:
   type: openapi
-  owner: user:jcollier
+  owner: user:exampleuser
   lifecycle: production
   dependencyOf: 
     - component:ollama-model-service
